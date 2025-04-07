@@ -244,6 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (zuordnungSelectElement) {
         const infoBox = document.getElementById('zuordnungInfo');
         const optionInfo = {
+            'carlounge': 'Primär: - <br> Sekundär: - <br> Perleffekt: - <br> Reifenqualm: - <br> Unterboden: -',
             'bennys': 'Primär: Mystisches Violet <br> Sekundär: Mystisches Violet <br> Perleffekt: Amethyst <br> Reifenqualm: - <br> Unterboden: -',
             'fib vip': 'Codewort: Hast du bitte ein Euro? <br> Es wird nicht nach dem Ausweis gefragt! (erst ab DN 90) (Ausnahme: DN 99) <br> Um die DN festzustellen Frage einfach:"Wie viele Euros brauchst du?" <br> Die Ränge Recruit, Trainee und Junior Agent tunen Dienstfahrzeuge kostenlos',
             'md vip': 'Primär: #ffffff <br> Sekundär: #ffffff <br> Perlerffekt: Nichts (Schwarz) <br> Keine Troll Felgen und keine Fenstertönung <br> Die Ränge Praktikant, Sanitäter, Allgemein Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
@@ -409,7 +410,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (zuordnungSelect) {
             const optionVal = zuordnungSelect.value.toLowerCase();
             console.log("Debug: Dropdown 'zuordnungSelect' value:", optionVal);
-            if (optionVal === 'bennys') {
+            if (optionVal === 'carlounge') {
                 total *= 0.5;
             } else if (optionVal.includes('vip2')) {
                 total *= 0.6
