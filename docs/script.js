@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (zuordnungSelectElement) {
         const infoBox = document.getElementById('zuordnungInfo');
         const optionInfo = {
-            'carlounge': 'Primär: - <br> Sekundär: - <br> Perleffekt: - <br> Reifenqualm: - <br> Unterboden: -',
+            'carlounge': 'Primär: #ff4400 <br> Sekundär: - <br> Perleffekt: 7. Reihe das vierte <br> Reifenqualm: Orange <br> Unterboden: Orange',
             'bennys': 'Primär: Mystisches Violet <br> Sekundär: Mystisches Violet <br> Perleffekt: Amethyst <br> Reifenqualm: - <br> Unterboden: -',
             'fib': 'Codewort: - <br> Es wird nicht nach dem Ausweis gefragt! (erst ab DN 90) (Ausnahme: DN 99) <br> Um die DN festzustellen Frage einfach:"-"',
             'md': 'Primär: #ffffff <br> Sekundär: #ffffff <br> Perlerffekt: Nichts (Schwarz) <br> Keine Troll Felgen und keine Fenstertönung',
