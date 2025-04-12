@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionInfo = {
             'carlounge': 'Primär: #ff4400 <br> Sekundär: - <br> Perleffekt: 7. Reihe das vierte <br> Reifenqualm: Orange <br> Unterboden: Orange',
             'bennys': 'Primär: Mystisches Violet <br> Sekundär: Mystisches Violet <br> Perleffekt: Amethyst <br> Reifenqualm: - <br> Unterboden: -',
-            'fib': 'Codewort: - <br> Es wird nicht nach dem Ausweis gefragt! (erst ab DN 90) (Ausnahme: DN 99) <br> Um die DN festzustellen Frage einfach:"-"',
+            'fib': 'Wenn sie sich mit Weste zeigen, nicht nach Ausweis fragen, nur Dienstnummer eintragen',
             'md vip': 'Primär: #ffffff <br> Sekundär: #ffffff <br> Perlerffekt: Nichts (Schwarz) <br> Keine Troll Felgen und keine Fenstertönung <br> Die Ränge Praktikant, Sanitäter, Allgemein Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
             'md spezial unit vip': 'Primär: HEX: #008c7d <br> Sekundär: HEX: #008c7d <br> Perlerffekt: 10. Reihe das letzte (das weiß ähnliche) <br> Die Ränge Praktikant, Sanitäter, Allgemein Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
             'pd vip': 'Primärfarbe: Öl Schwarz <br> Sekundärfarbe: Öl Schwarz <br> Perleffekt: Öl Schwarz <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
