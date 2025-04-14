@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'onepiece vip': 'Primärfarbe: Hex: #aeb6bf <br> Sekundärfarbe: Hex: #aeb6bf <br> Perleffekt: 7. Reihe, das vierte (Helles Gold) <br> Reifenqualm: ./.',
             'onepieceug vip': 'Primärfarbe: Mattschwarz <br> Sekundärfarbe: / <br> Perleffekt: Helles Gold',
             'peso': 'Primärfarbe: #797582 <br> Sekundärfarbe: #797582 <br> Perleffekt: Schwarz (Nichts) <br> Reifenqualm: ./.',
-            'peso ug': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: - <br> Perleffekt: Kieferngrün <br> eifenqualm: ./.', 
+            'peso ug': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: - <br> Perleffekt: Kieferngrün <br> Reifenqualm: ./.', 
             'tokio manji': 'Primärfarbe: Pures Gold <br> Sekundär: Pures Gold <br> Perleffekt: Renngelb <br> Reifenqualm: ./. <br> Unterboden: ./.',
             'blancos': 'Primärfarbe: Marmor Braun <br> Sekundärfarbe: Marmor Braun <br> Perleffekt: Creme Weiß',
             'blancos ug': 'Primärfarbe: Asphalt Grau <br> Sekundärfarbe: Asphalt Grau <br> Perleffekt: Cobalt Blau', 
