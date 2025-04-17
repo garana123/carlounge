@@ -283,7 +283,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'scandinavian tribe vip': 'Primär: Metallic Blau <br> Sekundär: ./. <br> Perleffekt: Helles Gold',
             'la casa nera': 'Primär: Matt Schwarz <br> Sekundär: ./. <br> Perleffekt: Dunkles Rot',
             'street money murders vip': 'Primär: Lila Metallic <br> Sekundär: ./. <br> Perleffekt: Alabasterweiß',
-            'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts'
+            'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
+            'pablo makarov vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
