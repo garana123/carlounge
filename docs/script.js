@@ -284,6 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'la casa nera': 'Primär: Matt Schwarz <br> Sekundär: ./. <br> Perleffekt: Dunkles Rot',
             'street money murders vip': 'Primär: Lila Metallic <br> Sekundär: ./. <br> Perleffekt: Alabasterweiß',
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
+            'clover cartel': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Hellgrün',
             'pablo makarov vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
             
 
