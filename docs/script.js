@@ -284,6 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'la casa nera': 'Primär: Matt Schwarz <br> Sekundär: ./. <br> Perleffekt: Dunkles Rot',
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'clover cartel': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Hellgrün',
+            'tokio manji ug': 'Primärfarbe: Rasengrün <br> Sekundär: / <br> Perleffekt: Limonengrün <br> Reifenqualm: ./. <br> Unterboden: ./.',
             'pablo makarov vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
             
 
