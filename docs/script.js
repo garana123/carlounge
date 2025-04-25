@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'blancos': 'Primärfarbe: Marmor Braun <br> Sekundärfarbe: Marmor Braun <br> Perleffekt: Creme Weiß',
             'blancos ug': 'Primärfarbe: Asphalt Grau <br> Sekundärfarbe: Asphalt Grau <br> Perleffekt: Cobalt Blau', 
             'sacra corona unita': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: Matt Schwarz <br> Perleffekt: Metallic Lila <br> Unterboden: Weiß',
-            'pd cid vip': 'Primärfarbe: Matt Schwarz(Schwarz) <br> Sekundärfarbe: --- <br> Perleffekt: Pures Weiß(Weiss) <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
+            'pd cid vip': 'Primärfarbe: Mitternachtsblau <br> Sekundärfarbe: --- <br> Perleffekt: Stahlguss(Schwarz) <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'pd gtf vip': 'Primärfarbe: Schwarz <br> Sekundärfarbe: Schwarz <br> Perleffekt: Schwarz <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
             'pd jugular vip': 'Primärfarbe: Amethyst (Lila) <br> Sekundärfarbe: ./. <br> Perleffekt: Diamantenblau mit Sticker: Fukaru <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'pd jugulargtf vip': 'Primärfarbe: Amethyst (Lila) <br> Sekundärfarbe: ./. <br> Perleffekt: Diamantenblau mit Sticker: Terroil <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
