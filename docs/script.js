@@ -285,7 +285,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'clover cartel': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Hellgrün',
             'tokio manji ug': 'Primärfarbe: Rasengrün <br> Sekundär: / <br> Perleffekt: Limonengrün <br> Reifenqualm: ./. <br> Unterboden: ./.',
-            'pablo makarov vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
+            'fib dn 60 vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
+            'fib dn 78 vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
