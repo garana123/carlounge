@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'us marshals unmarked vip': 'Primärfarbe: Indigo Lila <br> Sekundärfarbe: Indigo Lila <br> Perleffekt: Helles Orange <br> Info: Die Ränge Praktikant, Deputy Marshal 1, Deputy Marshal 2 und Deputy Marshal 3 tunen Dienstfahrzeuge kostenlos',
             'unicorn': 'Primärfarbe: Elektrisches Blau <br> Sekundärfarbe: ./. <br> Perleffekt: Elektrisches Pink <br> Reifenqualm: ./.',   
             'vagos': 'Primärfarbe: Renngelb <br> Sekundärfarbe: Renngelb <br> Perleffekt: Alabaster Weiß <br> Reifenqualm: Gelb <br> Unterboden: Gelb',
-            'vagos ug vip': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: Matt Schwarz <br> Perleffekt: Orange ',
+            'vagos ug': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: Matt Schwarz <br> Perleffekt: Orange ',
             'blue lock': 'Primär: Matt Schwarz <br> Sekundär: ./. <br> Perleffekt: Surfer Blau',
             'scandinavian tribe vip': 'Primär: Metallic Blau <br> Sekundär: ./. <br> Perleffekt: Helles Gold',
             'la casa nera': 'Primär: Matt Schwarz <br> Sekundär: ./. <br> Perleffekt: Dunkles Rot',
