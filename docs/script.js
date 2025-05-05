@@ -405,7 +405,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (optionVal === 'carlounge') {
                 total *= 0.5;
             } else if (optionVal.includes('vip2')) {
-                total *= 0.6
+                total *= 0.6;
             } else if (optionVal.includes('vip3')) {
                 total *= 0.7
             } else if (optionVal.includes('vip')) {
