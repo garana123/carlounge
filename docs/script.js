@@ -287,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'clover cartel': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Hellgrün',
             'tokio manji ug': 'Primärfarbe: Rasengrün <br> Sekundär: / <br> Perleffekt: Limonengrün <br> Reifenqualm: ./. <br> Unterboden: ./.',
             'fib dn 60 vip2': 'Info: Bekommt 40% auf alle Fahrzeuge',
-            'familie makarov vip3': 'Info: Bekommen 30% auf alle Fahrzeuge',
+            'familie makarov vip3': 'Info: Bekommen 40% auf alle Fahrzeuge',
             'fib dn 78 vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
             
 
@@ -405,9 +405,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (optionVal === 'carlounge') {
                 total *= 0.5;
             } else if (optionVal.includes('vip2')) {
-                total *= 0.6;
-            } else if (optionVal.includes('vip3')) {
-                total *= 0.7
+                total *= 0.6
             } else if (optionVal.includes('vip')) {
                 // Wenn Fahrzeugtyp bereits gewählt, entsprechend 30 % (privatauto) oder 40 % (frakdienstauto)
                 const carType = document.querySelector('input[name="contractType"]:checked');
