@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'tokio manji ug': 'Primärfarbe: Rasengrün <br> Sekundär: / <br> Perleffekt: Limonengrün <br> Reifenqualm: ./. <br> Unterboden: ./.',
             'fib dn 60 vip2': 'Info: Bekommt 40% auf alle Fahrzeuge',
             'familie makarov vip2': 'Info: Bekommen 40% auf alle Fahrzeuge',
-            'fib dn 78 vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
+            'rudi makarov vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
