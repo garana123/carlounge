@@ -283,6 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'clover cartel': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Hellgrün',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
+            'Black Hand' : 'Primär: Jagtgrün <br> Sekundär: - <br> Perleffekt: Bonbon Rot',
             'fib dn 60 vip2': 'Info: Bekommt 40% auf alle Fahrzeuge',
             'familie makarov vip2': 'Info: Bekommen 40% auf alle Fahrzeuge',
             'rudi makarov vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
