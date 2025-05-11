@@ -278,6 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'vagos': 'Primärfarbe: Renngelb <br> Sekundärfarbe: Renngelb <br> Perleffekt: Alabaster Weiß <br> Reifenqualm: Gelb <br> Unterboden: Gelb',
             'vagos ug': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: Matt Schwarz <br> Perleffekt: Orange ',
             'blue lock': 'Primär: Matt Schwarz <br> Sekundär: ./. <br> Perleffekt: Surfer Blau',
+            'la moretti': 'Primär: Matt #121011 <br> Sekundär: Matt #121011 <br> Perleffekt: Zuckerpflaume',
             'scandinavian tribe vip': 'Primär: Metallic Blau <br> Sekundär: ./. <br> Perleffekt: Helles Gold',
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'clover cartel': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Hellgrün',
