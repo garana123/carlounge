@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'sd einsatz vip': 'Primärfarbe: Sandbraun <br> Sekundärfarbe: - <br> Perleffekt: Orange <br> Info: Die Ränge Cadet, Junior Deputy, Deputy, Sr.Deputy und Master Deputy tunen Dienstfahrzeuge kostenlos', 
             'sd jugular vip': 'Primärfarbe: Mattes Laubgrün <br> Sekundärfarbe: Rot <br> Perleffekt: Weiß, Sticker: Jakeys <br> Info: Die Ränge Cadet, Junior Deputy, Deputy, Sr.Deputy und Master Deputy tunen Dienstfahrzeuge kostenlos', 
             'sd noose vip': 'Primärfarbe: Schwarz <br> Sekundärfarbe: Schwarz <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Cadet, Junior Deputy, Deputy, Sr.Deputy und Master Deputy tunen Dienstfahrzeuge kostenlos',
-            'sd unmarked vip': 'Primärfarbe: Schwarz <br> Sekundärfarbe: --- <br> Perleffekt: Graphit (schwarz) <br> Info: Die Ränge Cadet, Junior Deputy, Deputy, Sr.Deputy und Master Deputy tunen Dienstfahrzeuge kostenlos', 
+            'sd unmarked vip': 'Primärfarbe: Dunkles Lila <br> Sekundärfarbe: --- <br> Perleffekt: Lachsrosa <br> Info: Die Ränge Cadet, Junior Deputy, Deputy, Sr.Deputy und Master Deputy tunen Dienstfahrzeuge kostenlos', 
             'us marshals': 'Primärfarbe: Jagt Grün <br> Sekundärfarbe: Jagt Grün <br> Perleffekt: Jagt Grün',  
             'us marshals unmarked': 'Primärfarbe: Indigo Lila <br> Sekundärfarbe: Indigo Lila <br> Perleffekt: Helles Orange',
             'unicorn': 'Primärfarbe: Elektrisches Blau <br> Sekundärfarbe: ./. <br> Perleffekt: Elektrisches Pink <br> Reifenqualm: ./.',   
