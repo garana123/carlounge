@@ -599,19 +599,6 @@ document.getElementById("sendenButton").addEventListener("click", () => {
     // Zusammensetzen der Nachricht:
     const message = `${workerNumber} - ${customerName} | ${finalPrice} | ${filteredZuordnungText}${dienstnummerText}${voucherText}`;
 
-    const crypto = require('crypto');
-
-    const algorithm = 'aes-256-cbc';
-    const secretKey = '12345678901234567890123456789012'; // Gleicher Key
-    const iv = Buffer.from('3a77ea45d96ef1b3883d820cb0cac419', 'hex');
-    const encryptedWebhook = 'f4e1d197afe1016b07106ba2c27a17119532474a5fcbf224547a9ab9142a6e1444c91d4e3ee35276484fe80c341fadaef6fdfd041c9ef9d9fc94d1048adf49a6b82a95256119798b9ca68065ffff524558930cb3c026c6876c146b3a4104ccb2d7cfb0e2704274c5eee75366bad8116f288bd4ae0bde58ba5091fce2bee9ad80';
-
-    const decipher = crypto.createDecipheriv(algorithm, secretKey, iv);
-    let decrypted = decipher.update(encryptedWebhook, 'hex', 'utf8');
-    decrypted += decipher.final('utf8');
-
-    const webhookUrl = decrypted;
-
 // Ab hier nutzt du webhookUrl ganz normal
 
 
