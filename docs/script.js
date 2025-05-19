@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'sd unmarked vip': 'Primärfarbe: Dunkles Lila <br> Sekundärfarbe: --- <br> Perleffekt: Lachsrosa <br> Info: Die Ränge Cadet, Junior Deputy, Deputy, Sr.Deputy und Master Deputy tunen Dienstfahrzeuge kostenlos', 
             'us marshals': 'Primärfarbe: Jagt Grün <br> Sekundärfarbe: Jagt Grün <br> Perleffekt: Jagt Grün',  
             'us marshals unmarked': 'Primärfarbe: Indigo Lila <br> Sekundärfarbe: Indigo Lila <br> Perleffekt: Helles Orange',
-            'unicorn vip': 'Primärfarbe: Elektrisches Blau <br> Sekundärfarbe: ./. <br> Perleffekt: Elektrisches Pink <br> Reifenqualm: ./.',   
+            'unicorn vip': 'Primärfarbe: Elektrisches Blau <br> Sekundärfarbe: ./. <br> Perleffekt: Elektrisches Pink <br> Reifenqualm: ./. <br> Codewort: nipsey ',   
             'vagos': 'Primärfarbe: Renngelb <br> Sekundärfarbe: Renngelb <br> Perleffekt: Alabaster Weiß <br> Reifenqualm: Gelb <br> Unterboden: Gelb',
             'vagos ug': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: Matt Schwarz <br> Perleffekt: Orange ',
             'blue lock': 'Primär: Matt Schwarz <br> Sekundär: ./. <br> Perleffekt: Surfer Blau',
