@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'blue lock': 'Primär: Matt Schwarz <br> Sekundär: ./. <br> Perleffekt: Surfer Blau',
             'la moretti': 'Primär: Matt #121011 <br> Sekundär: Matt #121011 <br> Perleffekt: Zuckerpflaume',
             'scandinavian tribe vip': 'Primär: Metallic Blau <br> Sekundär: ./. <br> Perleffekt: Helles Gold',
-            'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
+            'red rose': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'clover cartel': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Hellgrün',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'black hand': 'Primär: Jagtgrün <br> Sekundär: - <br> Perleffekt: Bonbon Rot',
