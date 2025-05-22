@@ -282,8 +282,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'red rose': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'clover cartel': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Hellgrün',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
-            'black hand': 'Primär: Jagtgrün <br> Sekundär: - <br> Perleffekt: Bonbon Rot',
-            'redline': 'Primär: Dunkelgrau <br> Sekundär: - <br> Perleffekt: Zuckerpflaume',
             'van de straat': 'Primär: Schwarz Matt <br> Sekundär: Schwarz Matt <br> Perleffekt: Lachsrosa',
             'familie makarov vip2': 'Info: Bekommen 40% auf alle Fahrzeuge',
             'tigers mc vip2': 'Primär: Schwarz <br> Sekundär: Weiß <br> Perleffekt: Weiß <br> Unterboden: Blau',
