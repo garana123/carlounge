@@ -259,6 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'peso vip': 'Primärfarbe: #797582 <br> Sekundärfarbe: #797582 <br> Perleffekt: Schwarz (Nichts) <br> Reifenqualm: ./.',
             'peso ug vip': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: - <br> Perleffekt: Kieferngrün <br> Reifenqualm: ./.', 
             'sacra corona unita vip': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: Matt Schwarz <br> Perleffekt: Metallic Lila <br> Unterboden: Weiß',
+            'sacra corona unita ug vip': 'Primärfarbe: Weinrot <br> Sekundärfarbe: Weinrot <br> Perleffekt: Metallic Lila',
             'pd cid vip': 'Primärfarbe: Mitternachtsblau <br> Sekundärfarbe: --- <br> Perleffekt: Stahlguss(Schwarz) <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'pd gtf vip': 'Primärfarbe: Schwarz <br> Sekundärfarbe: Schwarz <br> Perleffekt: Schwarz <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
             'pd jugular vip': 'Primärfarbe: Amethyst (Lila) <br> Sekundärfarbe: ./. <br> Perleffekt: Diamantenblau mit Sticker: Fukaru <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
