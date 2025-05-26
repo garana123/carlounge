@@ -602,7 +602,7 @@ document.getElementById("sendenButton").addEventListener("click", () => {
 
 
     // Nachricht via Discord-Webhook senden
-    fetch("https://discord.com/api/webhooks/1374734074169524324/W7nDdP9xeAVU8FsWZvyZNglE9MNL7JxRI-5nq6SpvOVzzzaU5NYv-B1EODNh-c5ZKVDS", {
+    fetch("https://discord.com/api/webhooks/1374734043018428476/dH4qcIDGrt3QizAIL20ZqmaLNWOLSgX0Hs7q0sT7OaL-qVNwCqLeeAqGzNhntJUyiVcV", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ content: message })
