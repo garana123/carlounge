@@ -252,8 +252,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'pd vip': 'Primärfarbe: Aluminium (grau) <br> Sekundärfarbe: - <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
             'sd vip': 'Primärfarbe: Creme (Weiß) <br> Sekundärfarbe: - <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Cadet, Junior Deputy, Deputy, Sr.Deputy und Master Deputy tunen Dienstfahrzeuge kostenlos',
             'ice company vip': 'Primärfarbe: Diamantblau <br> Sekundärfarbe: Kaugummi Blau <br> Perleffekt: Alabaster weiß <br> Reifenqualm: ./.',
-            'la mano azura mc': 'Primärfarbe: Azure (Blau) <br> Sekundärfarbe: Azure (Blau) <br> Perleffekt: Alabasterweiß <br> Reifenqualm: / <br> Unterboden: /', 
-            'la mano azura mc ug': 'Primärfarbe: Gletscherblau <br> Sekundärfarbe: Gletscherblau <br> Perleffekt: Pures Weiß <br> Reifenqualm: / <br> Unterboden: /',
             'onepiece vip': 'Primärfarbe: Hex: #aeb6bf <br> Sekundärfarbe: Hex: #aeb6bf <br> Perleffekt: 7. Reihe, das vierte (Helles Gold) <br> Reifenqualm: ./.',
             'onepieceug vip': 'Primärfarbe: Mattschwarz <br> Sekundärfarbe: / <br> Perleffekt: Helles Gold',
             'peso vip': 'Primärfarbe: #797582 <br> Sekundärfarbe: #797582 <br> Perleffekt: Schwarz (Nichts) <br> Reifenqualm: ./.',
