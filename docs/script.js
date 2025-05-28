@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'vagos ug vip': 'Primärfarbe: #804228 <br> Sekundärfarbe: - <br> Perleffekt: 7. Reihe das vierte ',
             'blue lock': 'Primär: Matt Schwarz <br> Sekundär: ./. <br> Perleffekt: Surfer Blau',
             'la moretti': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau',
-            'red rose': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
+            'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'van de straat': 'Primär: Schwarz Matt <br> Sekundär: Schwarz Matt <br> Perleffekt: Lachsrosa',
             'familie makarov vip2': 'Info: Bekommen 40% auf alle Fahrzeuge',
