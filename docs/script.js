@@ -279,10 +279,9 @@ document.addEventListener('DOMContentLoaded', () => {
             'la moretti': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau',
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
-            'van de straat': 'Primär: Schwarz Matt <br> Sekundär: Schwarz Matt <br> Perleffekt: Lachsrosa',
+            'van de straat vip': 'Primär: Schwarz Matt <br> Sekundär: Schwarz Matt <br> Perleffekt: Lachsrosa',
             'familie makarov vip2': 'Info: Bekommen 40% auf alle Fahrzeuge',
-            'tigers mc vip2': 'Primär: Schwarz <br> Sekundär: Weiß <br> Perleffekt: Weiß <br> Unterboden: Blau',
-            'rudi makarov vip2': 'Info: Bekommt 40% auf alle Fahrzeuge'
+            'tigers mc vip2': 'Primär: Schwarz <br> Sekundär: Weiß <br> Perleffekt: Weiß <br> Unterboden: Blau'
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
