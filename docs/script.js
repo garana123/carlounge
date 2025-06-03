@@ -280,6 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'van de straat vip': 'Primär: Schwarz Matt <br> Sekundär: Schwarz Matt <br> Perleffekt: Lachsrosa',
             'familie makarov vip2': 'Info: Bekommen 40% auf alle Fahrzeuge',
+            'familie akbilla vip2': 'Info: Bekommen 40% auf alle Fahrzeuge',
             'tigers mc vip2': 'Primär: Schwarz <br> Sekundär: Weiß <br> Perleffekt: Weiß <br> Unterboden: Blau'
             
 
