@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'md vip': 'Primär: #ffffff <br> Sekundär: #ffffff <br> Perlerffekt: Nichts (Schwarz) <br> Keine Troll Felgen und keine Fenstertönung <br> Info: Die Ränge Praktikant, Sanitäter, Allg. Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
             'md tmf vip': 'Primär: Shell (Braun) <br> Sekundär: - <br> Perlerffekt: - <br> Info: Die Ränge Praktikant, Sanitäter, Allg. Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
             'pd vip': 'Primärfarbe: Aluminium (grau) <br> Sekundärfarbe: - <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
-            'army vip': 'Primärfarbe: Jagd Grün (Weiß) <br> Sekundärfarbe: Jagd Grün <br> Perleffekt: Army Grün <br> Info: Die Ränge Private, Private First Class, Specialist, Coporal und Seargent tunen Dienstfahrzeuge kostenlos',
+            'army vip': 'Primärfarbe: Jagd Grün <br> Sekundärfarbe: Jagd Grün <br> Perleffekt: Army Grün <br> Info: Die Ränge Private, Private First Class, Specialist, Coporal und Seargent tunen Dienstfahrzeuge kostenlos',
             'ice company vip': 'Primärfarbe: Diamantblau <br> Sekundärfarbe: Kaugummi Blau <br> Perleffekt: Alabaster weiß <br> Reifenqualm: ./.',
             'onepiece vip': 'Primärfarbe: Hex: #aeb6bf <br> Sekundärfarbe: Hex: #aeb6bf <br> Perleffekt: 7. Reihe, das vierte (Helles Gold) <br> Reifenqualm: ./.',
             'onepieceug vip': 'Primärfarbe: Mattschwarz <br> Sekundärfarbe: / <br> Perleffekt: Helles Gold',
