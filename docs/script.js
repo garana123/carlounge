@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionInfo = {
             'carlounge': 'Primär: #ff4400 <br> Sekundär: - <br> Perleffekt: 7. Reihe das vierte <br> Reifenqualm: Orange <br> Unterboden: Orange',
             'bennys': 'Primär: Mystisches Violet <br> Sekundär: Mystisches Violet <br> Perleffekt: Amethyst <br> Reifenqualm: - <br> Unterboden: -',
-            'fib': 'Ihr nehmt kein Ausweis von FIBlern <br> Codewort: schockiert',
+            'fib': 'Ihr nehmt kein Ausweis von FIBlern <br> Codewort: Heizung',
             'md vip': 'Primär: #ffffff <br> Sekundär: #ffffff <br> Perlerffekt: Nichts (Schwarz) <br> Keine Troll Felgen und keine Fenstertönung <br> Info: Die Ränge Praktikant, Sanitäter, Allg. Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
             'md tmf vip': 'Primär: Shell (Braun) <br> Sekundär: - <br> Perlerffekt: - <br> Info: Die Ränge Praktikant, Sanitäter, Allg. Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
             'pd vip': 'Primärfarbe: Aluminium (grau) <br> Sekundärfarbe: - <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
