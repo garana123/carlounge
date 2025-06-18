@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pd unmarked vip': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: / <br> Perleffekt: Beige (weiß) <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'unicorn vip': 'Primärfarbe: Matt Grau <br> Sekundärfarbe: ./. <br> Perleffekt: BonBon Rot <br> Reifenqualm: ./. <br> Codewort: nipsey',   
             'vagos vip': 'Primärfarbe: Renngelb <br> Sekundärfarbe: Renngelb <br> Perleffekt: Alabaster Weiß <br> Reifenqualm: Gelb <br> Unterboden: Gelb',
-            'vagos ug vip': 'Primärfarbe: #804228 <br> Sekundärfarbe: - <br> Perleffekt: 7. Reihe das vierte ',
+            'vagos ug vip': 'Primärfarbe: #ff6c00 <br> Sekundärfarbe: - <br> Perleffekt: Alabaster Weiß ',
             'la moretti': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau',
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
