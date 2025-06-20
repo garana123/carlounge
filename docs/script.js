@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pd s.p.f.u vip': 'Primärfarbe: Carbon (Schwarz) <br> Sekundärfarbe: Carbon (Schwarz) <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'pd swat vip': 'Primärfarbe: Nickel (grau) <br> Sekundärfarbe: ./. <br> Perleffekt: Alabaster Weiß mit Sticker: PD <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
             'pd unmarked vip': 'Primärfarbe: Dunkles Violett <br> Sekundärfarbe: / <br> Perleffekt: Turmalin (Blau) <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
-            'unicorn vip': 'Primärfarbe: Matt Grau <br> Sekundärfarbe: ./. <br> Perleffekt: BonBon Rot <br> Reifenqualm: ./. <br> Codewort: nipsey',   
+            'unicorn vip': 'Primärfarbe: Matt Grau <br> Sekundärfarbe: ./. <br> Perleffekt: BonBon Rot <br> Reifenqualm: ./.',   
             'vagos vip': 'Primärfarbe: Renngelb <br> Sekundärfarbe: Renngelb <br> Perleffekt: Alabaster Weiß <br> Reifenqualm: Gelb <br> Unterboden: Gelb',
             'vagos ug vip': 'Primärfarbe: #ff6c00 <br> Sekundärfarbe: - <br> Perleffekt: Alabaster Weiß ',
             'la moretti': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau',
