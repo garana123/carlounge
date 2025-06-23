@@ -591,7 +591,7 @@ document.getElementById("sendenButton").addEventListener("click", () => {
 
 
     // Nachricht via Discord-Webhook senden
-    fetch("https://discord.com/api/webhooks/1386724609461588132/G3EZ91B4s5FAknWZ4V8hc3Uo9ozdthT4RU-47daLD0a_6dk7ZlaAhg8B9X7kQeAX4V2f", {
+    fetch("https://discord.com/api/webhooks/1386754666666135602/0FtTVyRq7H0DHcbkbmgrANcpEowO_amgAQYPmaCVcv5p6_TUj1SXeHCuOZ54vxNUhz-L", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ content: message })
