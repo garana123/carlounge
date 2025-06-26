@@ -270,7 +270,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'unicorn vip': 'Primärfarbe: Matt Grau <br> Sekundärfarbe: ./. <br> Perleffekt: BonBon Rot <br> Reifenqualm: ./.',   
             'vagos vip': 'Primärfarbe: Renngelb <br> Sekundärfarbe: Renngelb <br> Perleffekt: Alabaster Weiß <br> Reifenqualm: Gelb <br> Unterboden: Gelb',
             'vagos ug vip': 'Primärfarbe: #ff6c00 <br> Sekundärfarbe: - <br> Perleffekt: Alabaster Weiß ',
-            'la moretti': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau','Ravens of Doom': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Alabaster Weiß'
+            'la moretti': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau' ,
+            'Ravens of Doom': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'van de straat vip': 'Primär: Schwarz Matt <br> Sekundär: Schwarz Matt <br> Perleffekt: Lachsrosa',
