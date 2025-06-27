@@ -582,35 +582,34 @@ document.getElementById("sendenButton").addEventListener("click", () => {
     }
 
     // Gutschein-Text nur hinzufügen, wenn ein Gutschein verwendet wurde
-    const voucherText = voucherCount > 0 ?  ` -- Gutschein: [${voucherCount}]` : "";
+    const voucherText = voucherCount > 0 ? ` -- Gutschein: [${voucherCount}]` : "";
+    const dienstnummerText = dienstnummerValue ? ` -- Dienstnummer: ${dienstnummerValue}` : "";
 
-    // Dienstnummer nur hinzufügen, wenn sie nicht leer ist
-    const dienstnummerText = dienstnummerValue ?  ` -- Dienstnummer: ${dienstnummerValue}` : "";
-
-    // Zusammensetzen der Nachricht:
     const message = `${workerNumber} - ${customerName} | ${finalPrice} | ${filteredZuordnungText}${dienstnummerText}${voucherText}`;
 
-// Ab hier nutzt du webhookUrl ganz normal
-
-
-    // Nachricht via Discord-Webhook senden
-    fetch("https://discord.com/api/webhooks/1388108566640070727/KRGKTq0B9pvhhyFSvoIGRkOWKd6-gj5Yn0XswAn6e-DQSeAjhn4luPl4AzIh_7GPzCeC", {
+// Nachricht via Cloudflare Worker senden
+    function senden() {
+      fetch("https://dein-name.workers.dev", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: message })
-    })
-    .then(response => response.text())
-    .then(data => console.log("Erfolg:", data))
-    .catch(error => console.error("Fehler:", error));
-});
-
-window.onload = function() {
-    const dienstnummer = localStorage.getItem("dienstnummer"); // Auslesen der Dienstnummer
-
-    if (dienstnummer) {
-        // Ersetzen des Platzhalters mit der Dienstnummer
-        document.querySelector('.dienstnummer-info').innerHTML = `Dienstnummer des Arbeiters: ${dienstnummer}`;
-    } else {
-        console.error("Dienstnummer nicht gefunden.");
+        headers: {
+          "Content-Type": "application/json",
+          "x-secret": "deingeheimerkey123"
+        },
+        body: JSON.stringify({
+          content: message
+        })
+      })
+      .then(response => response.text())
+      .then(data => console.log("Erfolg:", data))
+      .catch(error => console.error("Fehler:", error));
     }
-};
+
+    window.onload = function() {
+      const dienstnummer = localStorage.getItem("dienstnummer");
+
+      if (dienstnummer) {
+        document.querySelector('.dienstnummer-info').innerHTML = `Dienstnummer des Arbeiters: ${dienstnummer}`;
+      } else {
+        console.error("Dienstnummer nicht gefunden.");
+      }
+    };
