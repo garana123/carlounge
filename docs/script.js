@@ -589,11 +589,11 @@ document.getElementById("sendenButton").addEventListener("click", () => {
 
 // Nachricht via Cloudflare Worker senden
     function senden() {
-      fetch("https://dein-name.workers.dev", {
+      fetch("https://workers-playground-nameless-salad-f6a4.jasi-lindernm.workers.dev", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "x-secret": "deingeheimerkey123"
+          "x-secret": "carloungeistcool321123"
         },
         body: JSON.stringify({
           content: message
