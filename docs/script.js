@@ -523,93 +523,68 @@ function onlyOne(checkbox) {
 
 
 
-document.getElementById("sendenButton").addEventListener("click", () => {
-    // 1. Auslesen der "Dienstnummer des Arbeiters" aus dem Element
-    const workerNumber = localStorage.getItem("dienstnummer") || "Unbekannt";
+  window.onload = function() {
+    const dienstnummer = localStorage.getItem("dienstnummer");
 
-    
-
-    // 2. Name aus dem Eingabefeld "kundenname"
-    const customerName = document.getElementById("kundenname").value;
-
-    // 3. Endpreis aus dem Element "total-price"
-    let finalPrice = document.getElementById("total-price").textContent;
-
-    // 4. Headlights prüfen und ggf. an den Preis anhängen
-    const headlightsValue = document.getElementById("headlights").value;
-    if (headlightsValue === "1") {
-        finalPrice += " (inkl. Headlights)";
-    } else if (headlightsValue === "2") {
-        finalPrice += " (inkl. Headlightsfarbe)";
-    }
-
-    // 5. Customkennzeichen prüfen und ggf. an den Preis anhängen
-    const customKennzeichenChecked = document.getElementById("customkennzeichen").checked;
-    if (customKennzeichenChecked) {
-        finalPrice += " (inkl. Kennzeichen)";
-    }
-
-    // 6. Ausgewählte Zuordnung aus dem Dropdown "zuordnungSelect"
-    const zuordnungSelect = $('#zuordnungSelect');
-    const zuordnungValue = zuordnungSelect.val();
-    const zuordnungText = zuordnungSelect.find("option:selected").text();
-    const filteredZuordnungText = zuordnungText.replace(/[^\p{L}\s]/gu, '');
-
-    console.log("Debug: Dropdown 'zuordnungSelect' value:", zuordnungValue);
-
-    if (zuordnungValue === "zivilist") {
-        // Hier keine Meldung mehr anzeigen
-        // Du kannst stattdessen zum Beispiel eine Funktion ausführen oder das Formular weiter bearbeiten
+    if (dienstnummer) {
+      document.querySelector('.dienstnummer-info').innerHTML = `Dienstnummer des Arbeiters: ${dienstnummer}`;
     } else {
-        // Hier kannst du z.B. den Text irgendwo anders anzeigen
-        // Oder eine andere Aktion ausführen
+      console.error("Dienstnummer nicht gefunden.");
     }
 
+    document.getElementById("sendenButton").addEventListener("click", () => {
+      const workerNumber = localStorage.getItem("dienstnummer") || "Unbekannt";
+      const customerName = document.getElementById("kundenname").value;
+      let finalPrice = document.getElementById("total-price").textContent;
 
-    // 7. Dienstnummer aus dem Eingabefeld "dienstnummer"
-    const dienstnummerValue = document.getElementById("dienstnummerkunde").value;
-
-    // 8. Gutscheine auswerten: Zähle, wie viele Gutscheine verwendet wurden
-    const voucher1Value = document.getElementById("gutschein1").value;
-    const voucher2Value = document.getElementById("gutschein2").value;
-    let voucherCount = 0;
-
-    if (voucher1Value && voucher1Value !== "0") {
-        voucherCount++;
-    }
-    if (voucher2Value && voucher2Value !== "0") {
-        voucherCount++;
-    }
-
-    // Gutschein-Text nur hinzufügen, wenn ein Gutschein verwendet wurde
-    const voucherText = voucherCount > 0 ? ` -- Gutschein: [${voucherCount}]` : "";
-    const dienstnummerText = dienstnummerValue ? ` -- Dienstnummer: ${dienstnummerValue}` : "";
-
-    const message = `${workerNumber} - ${customerName} | ${finalPrice} | ${filteredZuordnungText}${dienstnummerText}${voucherText}`;
-
-// Nachricht via Cloudflare Worker senden
-    function senden() {
-      fetch("https://workers-playground-nameless-salad-f6a4.jasi-lindernm.workers.dev", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-secret": "carloungeistcool321123"
-        },
-        body: JSON.stringify({
-          content: message
-        })
-      })
-      .then(response => response.text())
-      .then(data => console.log("Erfolg:", data))
-      .catch(error => console.error("Fehler:", error));
-    }
-
-    window.onload = function() {
-      const dienstnummer = localStorage.getItem("dienstnummer");
-
-      if (dienstnummer) {
-        document.querySelector('.dienstnummer-info').innerHTML = `Dienstnummer des Arbeiters: ${dienstnummer}`;
-      } else {
-        console.error("Dienstnummer nicht gefunden.");
+      const headlightsValue = document.getElementById("headlights").value;
+      if (headlightsValue === "1") {
+        finalPrice += " (inkl. Headlights)";
+      } else if (headlightsValue === "2") {
+        finalPrice += " (inkl. Headlightsfarbe)";
       }
-    };
+
+      const customKennzeichenChecked = document.getElementById("customkennzeichen").checked;
+      if (customKennzeichenChecked) {
+        finalPrice += " (inkl. Kennzeichen)";
+      }
+
+      const zuordnungSelect = $('#zuordnungSelect');
+      const zuordnungValue = zuordnungSelect.val();
+      const zuordnungText = zuordnungSelect.find("option:selected").text();
+      const filteredZuordnungText = zuordnungText.replace(/[^\p{L}\s]/gu, '');
+
+      const dienstnummerValue = document.getElementById("dienstnummerkunde").value;
+      const voucher1Value = document.getElementById("gutschein1").value;
+      const voucher2Value = document.getElementById("gutschein2").value;
+
+      let voucherCount = 0;
+      if (voucher1Value && voucher1Value !== "0") voucherCount++;
+      if (voucher2Value && voucher2Value !== "0") voucherCount++;
+
+      const voucherText = voucherCount > 0 ? ` -- Gutschein: [${voucherCount}]` : "";
+      const dienstnummerText = dienstnummerValue ? ` -- Dienstnummer: ${dienstnummerValue}` : "";
+
+      const message = `${workerNumber} - ${customerName} | ${finalPrice} | ${filteredZuordnungText}${dienstnummerText}${voucherText}`;
+
+      // ✅ Funktion hier aufrufen, nachdem message definiert ist
+      function senden() {
+        fetch("https://workers-playground-nameless-salad-f6a4.jasi-lindernm.workers.dev", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-secret": "carloungeistcool321123"
+          },
+          body: JSON.stringify({
+            content: message
+          })
+        })
+        .then(response => response.text())
+        .then(data => console.log("Erfolg:", data))
+        .catch(error => console.error("Fehler:", error));
+      }
+
+      senden(); // ✅ Hier wird sie aufgerufen – alles ist bereit
+    });
+  };
+    
