@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'la m': 'Primär: Beton Grau <br> Sekundär: - <br> Perleffekt: Zitrusgrün' ,
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
-            'grove street UG': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün',
+            'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün',
             'familie makarov vip2': 'Info: Bekommen 40% auf alle Fahrzeuge',
             'familie akbilla vip2': 'Info: Bekommen 40% auf alle Fahrzeuge'
             
