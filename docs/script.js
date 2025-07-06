@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'vagos vip': 'Primärfarbe: Renngelb <br> Sekundärfarbe: Renngelb <br> Perleffekt: Alabaster Weiß <br> Reifenqualm: Gelb <br> Unterboden: Gelb',
             'vagos ug vip': 'Primärfarbe: #ff6c00 <br> Sekundärfarbe: - <br> Perleffekt: Alabaster Weiß ',
             'la moretti': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau' ,
-            'rosa la muerte vip': 'Primär: Wüsten Braun <br> Sekundär: Wüsten Braun <br> Perleffekt: Alabaster Weiß' ,
+            'rosa la muerte vip': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
             'ravens of doom': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'la m': 'Primär: Beton Grau <br> Sekundär: - <br> Perleffekt: Zitrusgrün' ,
             'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
