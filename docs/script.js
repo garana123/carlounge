@@ -275,11 +275,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'rosa la muerte vip': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
             'ravens of doom': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'la m': 'Primär: Beton Grau <br> Sekundär: - <br> Perleffekt: Zitrusgrün' ,
-            'red rose vip': 'Primär: #290000 <br> Sekundär: - <br> Perleffekt: 3. Reihe ganz rechts',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
-            'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün',
-            'familie makarov vip2': 'Info: Bekommen 40% auf alle Fahrzeuge',
-            'familie akbilla vip2': 'Info: Bekommen 40% auf alle Fahrzeuge'
+            'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün'
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
