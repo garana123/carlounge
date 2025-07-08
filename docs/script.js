@@ -275,6 +275,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'rosa la muerte vip': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
             'ravens of doom': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'la m': 'Primär: Beton Grau <br> Sekundär: - <br> Perleffekt: Zitrusgrün' ,
+            'mg13': 'Primär: Kaugummi Blau <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
+            'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün'
             
