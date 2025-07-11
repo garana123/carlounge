@@ -245,7 +245,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const infoBox = document.getElementById('zuordnungInfo');
         const optionInfo = {
             'carlounge': 'Primär: #ff4400 <br> Sekundär: - <br> Perleffekt: 7. Reihe das vierte <br> Reifenqualm: Orange <br> Unterboden: Orange',
-            'bennys': 'Primär: Mystisches Violet <br> Sekundär: Mystisches Violet <br> Perleffekt: Amethyst <br> Reifenqualm: - <br> Unterboden: -',
             'fib vip': 'Ihr nehmt kein Ausweis von FIBlern <br> Codewort: Talent <br> Info: Die Ränge Recruit, Trainee und Junior Agent tunen Dienstfahrzeuge kostenlos',
             'md vip': 'Primär: Alabaster Weiß <br> Sekundär: - <br> Perlerffekt: Nichts (Schwarz) <br> Keine Troll Felgen und keine Fenstertönung <br> Info: Die Ränge Praktikant, Sanitäter, Allg. Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
             'md tmf vip': 'Primär: Shell (Braun) <br> Sekundär: - <br> Perlerffekt: - <br> Info: Die Ränge Praktikant, Sanitäter, Allg. Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
@@ -277,6 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'la m': 'Primär: Beton Grau <br> Sekundär: - <br> Perleffekt: Zitrusgrün' ,
             'mg13': 'Primär: Kaugummi Blau <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
+            'manfred schelle vip2': 'Bekommt auf all seine Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün'
             
