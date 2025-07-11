@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const infoBox = document.getElementById('zuordnungInfo');
         const optionInfo = {
             'carlounge': 'Primär: #ff4400 <br> Sekundär: - <br> Perleffekt: 7. Reihe das vierte <br> Reifenqualm: Orange <br> Unterboden: Orange',
-            'fib vip': 'Ihr nehmt kein Ausweis von FIBlern <br> Codewort: Talent <br> Info: Die Ränge Recruit, Trainee und Junior Agent tunen Dienstfahrzeuge kostenlos',
+            'fib vip': 'Ihr nehmt kein Ausweis von FIBlern <br> Codewort: Brille <br> Info: Die Ränge Recruit, Trainee und Junior Agent tunen Dienstfahrzeuge kostenlos',
             'md vip': 'Primär: Alabaster Weiß <br> Sekundär: - <br> Perlerffekt: Nichts (Schwarz) <br> Keine Troll Felgen und keine Fenstertönung <br> Info: Die Ränge Praktikant, Sanitäter, Allg. Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
             'md tmf vip': 'Primär: Shell (Braun) <br> Sekundär: - <br> Perlerffekt: - <br> Info: Die Ränge Praktikant, Sanitäter, Allg. Mediziner und Feld-Sanitäter tunen Dienstfahrzeuge kostenlos',
             'pd vip': 'Primärfarbe: Aluminium (grau) <br> Sekundärfarbe: - <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
