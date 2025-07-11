@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'army navyseals vip': 'Primärfarbe: Verbotemes Blau <br> Sekundärfarbe: Verbotemes Blau <br> Perleffekt: Himmelblau <br> Info: Die Ränge Private, Private First Class, Specialist, Coporal und Seargent tunen Dienstfahrzeuge kostenlos <br> Kennzeichen für Dienstautos sind immer kostenlos!',
             'army einsatzleitung vip': 'Primärfarbe: Sand (Braun) <br> Sekundärfarbe:  <br> Perleffekt: Helles Gold <br> Info: Die Ränge Private, Private First Class, Specialist, Coporal und Seargent tunen Dienstfahrzeuge kostenlos <br> Kennzeichen für Dienstautos sind immer kostenlos!',
             'ice company vip': 'Primärfarbe: Diamantblau <br> Sekundärfarbe: Kaugummi Blau <br> Perleffekt: Alabaster weiß <br> Reifenqualm: ./.',
-            'onepiece vip': 'Primärfarbe: Hex: #aeb6bf <br> Sekundärfarbe: Hex: #aeb6bf <br> Perleffekt: 7. Reihe, das vierte (Helles Gold) <br> Reifenqualm: ./.',
+            'onepiece vip': 'Primärfarbe: Metallic Grau <br> Sekundärfarbe: Metallic Grau <br> Perleffekt: Helles Gold <br> Reifenqualm: ./.',
             'onepieceug vip': 'Primärfarbe: Mattschwarz <br> Sekundärfarbe: / <br> Perleffekt: Helles Gold',
             'peso vip': 'Primärfarbe: #797582 <br> Sekundärfarbe: #797582 <br> Perleffekt: Schwarz (Nichts) <br> Reifenqualm: ./.',
             'peso ug vip': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: - <br> Perleffekt: Kieferngrün <br> Reifenqualm: ./.', 
