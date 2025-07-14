@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'mg13': 'Primär: Kaugummi Blau <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
             'manfred schelle vip2': 'Bekommt auf all seine Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
-            'anni john vip2': 'Bekommt auf all ihre Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
+            'anni john wick vip2': 'Bekommt auf all ihre Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün'
             
