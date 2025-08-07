@@ -272,7 +272,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'pink venom': 'Primärfarbe: Mettalic Lila <br> Sekundärfarbe: Metallic Lila <br> Perleffekt: Alabaster Weiß',
             'la moretti vip': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau' ,
             'rosa la muerte': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
-            'ravens of doom': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'la eme vip': 'Primär: Beton Grau <br> Sekundär: - <br> Perleffekt: Zitrusgrün' ,
             'mg13': 'Primär: Kaugummi Blau <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
