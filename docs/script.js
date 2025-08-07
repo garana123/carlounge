@@ -268,8 +268,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'pd swat vip': 'Primärfarbe: Nickel (grau) <br> Sekundärfarbe: ./. <br> Perleffekt: Alabaster Weiß mit Sticker: PD <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
             'pd unmarked vip': 'Primärfarbe: Mitternachtsblau <br> Sekundärfarbe: / <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'unicorn vip': 'Primärfarbe: Matt Grau <br> Sekundärfarbe: ./. <br> Perleffekt: BonBon Rot <br> Reifenqualm: ./.',   
-            'hamadys': 'Primärfarbe: Stahlguss (schwarz) <br> Sekundärfarbe: / <br> Perleffekt: Helles Orange <br>',
-            'bruderschaft': 'Primärfarbe: Blaue Nacht <br> Sekundärfarbe: - <br> Perleffekt: Helles Gold ',
+            'vagos vip': 'Primärfarbe: Stahlguss (schwarz) <br> Sekundärfarbe: / <br> Perleffekt: Helles Orange <br>',
+            'vagos ug vip': 'Primärfarbe: Blaue Nacht <br> Sekundärfarbe: - <br> Perleffekt: Helles Gold ',
             'la moretti vip': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau' ,
             'rosa la muerte': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
             'ravens of doom': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
@@ -280,7 +280,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'familie okami vip2': 'Bekommen auf all ihre Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün'
-            'pink venom': 'Primär: Lila Metallic <br> Sekundär: Lila Metallic - <br> Perleffekt: Alabaster Weiß'
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
