@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pd unmarked vip': 'Primärfarbe: Mitternachtsblau <br> Sekundärfarbe: / <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'unicorn vip': 'Primärfarbe: Matt Grau <br> Sekundärfarbe: ./. <br> Perleffekt: BonBon Rot <br> Reifenqualm: ./.',   
             'hamadys': 'Primärfarbe: Stahlguss (schwarz) <br> Sekundärfarbe: / <br> Perleffekt: Helles Orange <br>',
-            'pink venom': 'Primärfarbe: Blaue Nacht <br> Sekundärfarbe: - <br> Perleffekt: Helles Gold ',
+            'pink venom': 'Primärfarbe: Mettalic Lila <br> Sekundärfarbe: Metallic Lila <br> Perleffekt: Alabaster Weiß',
             'la moretti vip': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau' ,
             'rosa la muerte': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
             'ravens of doom': 'Primär: Matt Schwarz <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
