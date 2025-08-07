@@ -280,7 +280,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'familie okami vip2': 'Bekommen auf all ihre Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün',
-            'bruderschaft': 'Primär: Blaue Nacht <br> Sekundär: / <br> Perleffekt: Helles Gold'
+            'bruderschaft': 'Primär: Blaue Nacht <br> Sekundär: / <br> Perleffekt: Helles Gold',
+            'Steel Reapers MC': 'Primär: Renn Gelb <br> Sekundär: Renn Gelb <br> Perleffekt: Alabaster Weiß'
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
