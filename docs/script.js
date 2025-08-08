@@ -272,7 +272,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'pink venom': 'Primärfarbe: Mettalic Lila <br> Sekundärfarbe: Metallic Lila <br> Perleffekt: Alabaster Weiß',
             'la moretti vip': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau' ,
             'rosa la muerte': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
-            'la eme vip': 'Primär: Beton Grau <br> Sekundär: - <br> Perleffekt: Zitrusgrün' ,
             'mg13': 'Primär: Kaugummi Blau <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
             'manfred schelle vip2': 'Bekommt auf all seine Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
@@ -280,7 +279,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün',
             'bruderschaft': 'Primär: Blaue Nacht <br> Sekundär: / <br> Perleffekt: Helles Gold',
-            'steel Reapers MC': 'Primär: Renn Gelb <br> Sekundär: Renn Gelb <br> Perleffekt: Alabaster Weiß',
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
