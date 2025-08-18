@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'ice company vip': 'Primärfarbe: Diamantblau <br> Sekundärfarbe: Kaugummi Blau <br> Perleffekt: Alabaster weiß <br> Reifenqualm: ./.',
             'onepiece vip': 'Primärfarbe: #aeb6bf <br> Sekundärfarbe: #aeb6bf <br> Perleffekt: 7. Reihe, das vierte (Helles Gold) <br> Reifenqualm: ./.',
             'onepieceug vip': 'Primärfarbe: Mattschwarz <br> Sekundärfarbe: / <br> Perleffekt: Helles Gold',
-            'unicorn vip': 'Primärfarbe: Mattschwarz <br> Sekundärfarbe: / <br> Perleffekt: Helles Gold',
+            'unicorn vip': 'Primärfarbe: Matt Grau <br> Sekundärfarbe: / <br> Perleffekt: Bonbon Rot',
             'peso vip': 'Primärfarbe: #797582 <br> Sekundärfarbe: #797582 <br> Perleffekt: Schwarz (Nichts) <br> Reifenqualm: ./.',
             'peso ug vip': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: - <br> Perleffekt: Kieferngrün <br> Reifenqualm: ./.', 
             'sacra corona unita vip': 'Primärfarbe: Matt Schwarz <br> Sekundärfarbe: Matt Schwarz <br> Perleffekt: Metallic Lila <br> Unterboden: Weiß',
