@@ -278,7 +278,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'manfred schelle vip2': 'Bekommt auf all seine Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün',
-            'die bruderschaft': 'Primär: Blaue Nacht <br> Sekundär: / <br> Perleffekt: Helles Gold',
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
