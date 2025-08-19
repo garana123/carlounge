@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'hamadys': 'Primärfarbe: Stahlguss (schwarz) <br> Sekundärfarbe: / <br> Perleffekt: Helles Orange <br>',
             'la moretti vip': 'Primär: Polarweiß <br> Sekundär: - <br> Perleffekt: Kaugummi Blau' ,
             'rosa la muerte': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
-            'rosa la muerte UG': 'Primär: A86F82 <br> Sekundär: A86F82 <br> Perleffekt: Alabasta Weiß' ,
+            'rosa la muerte ug': 'Primär: A86F82 <br> Sekundär: A86F82 <br> Perleffekt: Alabasta Weiß' ,
             'mg13': 'Primär: Kaugummi Blau <br> Sekundär: - <br> Perleffekt: Alabaster Weiß' ,
             'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
             'manfred schelle vip2': 'Bekommt auf all seine Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
