@@ -274,10 +274,10 @@ document.addEventListener('DOMContentLoaded', () => {
             'rosa la muerte': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
             'rosa la muerte ug': 'Primär: A86F82 <br> Sekundär: A86F82 <br> Perleffekt: Alabasta Weiß' ,
             'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
+            'Vagos': 'Primär: Renn Gelb <br> Sekundär: Renn Gelb - <br> Perleffekt: Alabaster Weiß'
             'manfred schelle vip2': 'Bekommt auf all seine Fahrzeuge 40% Rabatt (wird automatisch abgezogen)',
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün',
-            'Vagos': 'Primär: Renn Gelb <br> Sekundär: Renn Gelb - <br> Perleffekt: Alabaster Weiß'
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
