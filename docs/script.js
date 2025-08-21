@@ -280,7 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün',
             'vagos': 'Primär: Renn Gelb <br> Sekundär: Renn Gelb <br> Perleffekt: Alabasta Weiß',
             'aztecas': 'Primär: Paradise <br> Sekundär: - <br> Perleffekt: Alabasta Weiß',
-            'midnight': 'Primär: Schnee Weiß <br> Sekundär: Schnee Weiß <br> Perleffekt: Helees Gold',
+            'midnight': 'Primär: Schnee Weiß <br> Sekundär: Schnee Weiß <br> Perleffekt: Helles Gold',
             
 
             // Hier kannst du weitere Zuordnungen und Infos hinzufügen
