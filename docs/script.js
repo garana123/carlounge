@@ -283,8 +283,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'midnight': 'Primär: Schnee Weiß <br> Sekundär: Schnee Weiß <br> Perleffekt: Helles Gold',
             'ballas': 'Primär: Metallic Lila <br> Sekundär: Metallic Lila <br> Perleffekt: Metallic Lila'
             'hellbainianze mc': 'Primär: Matt Orange <br> Sekundär: - <br> Perleffekt: Bonbon Rot'
-            'los trinitarios': 'Primär: #836FFF <br> Sekundär: - <br> Perleffekt: alabasta weiß'
-            'lcn': 'Primär: Schwarz <br> Sekundär: - <br> Perleffekt: alabasta weiß'
+            'los trinitarios': 'Primär: #836FFF <br> Sekundär: - <br> Perleffekt: Alabasta Weiß'
+            'lcn': 'Primär: Schwarz <br> Sekundär: - <br> Perleffekt: Alabasta Weiß'
             
             
 
