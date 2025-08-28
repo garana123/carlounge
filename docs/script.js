@@ -272,6 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pd swat vip': 'Primärfarbe: Nickel (grau) <br> Sekundärfarbe: ./. <br> Perleffekt: Alabaster Weiß mit Sticker: PD <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
             'pd unmarked vip': 'Primärfarbe: Mitternachtsblau <br> Sekundärfarbe: / <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'hamadys vip': 'Primärfarbe: Matt orange <br> Sekundärfarbe: / <br> Perleffekt: carbon schwarz <br>',
+            'lcn vip': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'rosa la muerte': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
             'rosa la muerte ug': 'Primär: A86F82 <br> Sekundär: A86F82 <br> Perleffekt: Alabasta Weiß' ,
             'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
