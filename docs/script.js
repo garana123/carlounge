@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'ballas': 'Primär: Metallic Lila <br> Sekundär: Metallic Lila <br> Perleffekt: Metallic Lila',
             'hellbainianze mc': 'Primär: Matt Orange <br> Sekundär: - <br> Perleffekt: Bonbon Rot',
             'los trinitarios': 'Primär: #836FFF <br> Sekundär: - <br> Perleffekt: Alabasta Weiß',
-            'lcn': 'Primär: Schwarz <br> Sekundär: - <br> Perleffekt: Alabasta Weiß',
+            'lcn': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
             
             
 
