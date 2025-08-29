@@ -286,6 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'hellbainianze mc': 'Primär: Matt Orange <br> Sekundär: - <br> Perleffekt: Bonbon Rot',
             'los trinitarios': 'Primär: #836FFF <br> Sekundär: - <br> Perleffekt: Alabasta Weiß',
             'lcn': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
+            'los sombra': 'Primär: Blaue Nacht <br> Sekundär: Azur (Blau) <br> Perleffekt: Kaugummi Blau',
             
             
 
