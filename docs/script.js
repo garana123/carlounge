@@ -273,6 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pd unmarked vip': 'Primärfarbe: Mitternachtsblau <br> Sekundärfarbe: / <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'hamadys vip': 'Primärfarbe: Matt orange <br> Sekundärfarbe: / <br> Perleffekt: carbon schwarz <br>',
             'lcn vip': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
+            'los sombra vip': 'Primär: Carbanet Rot <br> Sekundär: - <br> Perleffekt: Zuckerpflaume',
             'rosa la muerte': 'Primär: Cabernet rot <br> Sekundär: Rot <br> Perleffekt: Zellstoff rot' ,
             'rosa la muerte ug': 'Primär: A86F82 <br> Sekundär: A86F82 <br> Perleffekt: Alabasta Weiß' ,
             'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
@@ -286,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'hellbainianze mc': 'Primär: Matt Orange <br> Sekundär: - <br> Perleffekt: Bonbon Rot',
             'los trinitarios': 'Primär: #836FFF <br> Sekundär: - <br> Perleffekt: Alabasta Weiß',
             'lcn': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
-            'los sombra': 'Primär: Blaue Nacht <br> Sekundär: Azur (Blau) <br> Perleffekt: Kaugummi Blau',
+            'los sombra': 'Primär: Carbanet Rot <br> Sekundär: - <br> Perleffekt: Zuckerpflaume',
             
             
 
