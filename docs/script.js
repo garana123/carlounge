@@ -289,8 +289,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'lcn': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'los sombra': 'Primär: Carbanet Rot <br> Sekundär: - <br> Perleffekt: Zuckerpflaume',
             'blue reign': 'Primär: #edfffd (Metall) <br> Sekundär: - <br> Perleffekt: Helles Blau ',
-            'zivi vip1': 'Zivis mit einer Visumstufe unter 5',
-            'zivi vip2': 'Zivis mit einer Visumstufe zwischen 5-10',
+            'zivi vip eins': 'Zivis mit einer Visumstufe unter 5',
+            'zivi vip zwei': 'Zivis mit einer Visumstufe zwischen 5-10',
             
             
 
