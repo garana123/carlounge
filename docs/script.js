@@ -407,6 +407,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 total *= 0.5;
             } else if (optionVal.includes('vip2')) {
                 total *= 0.6
+             } else if (optionVal.includes('vip3')) {
+                total *= 0.7
             } else if (optionVal.includes('vip')) {
                 // Wenn Fahrzeugtyp bereits gewählt, entsprechend 30 % (privatauto) oder 40 % (frakdienstauto)
                 const carType = document.querySelector('input[name="contractType"]:checked');
