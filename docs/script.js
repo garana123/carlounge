@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             selector: '#turbo'
         },
         'Fulltune': {
-            prices: [800000, 1200000, 600000, 1000000],
+            prices: [1000000, 1500000, 800000, 1200000],
             selector: '#fulltune'
         },
         'Panzerung': {
