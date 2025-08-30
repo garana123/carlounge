@@ -288,6 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'los trinitarios': 'Primär: #836FFF <br> Sekundär: - <br> Perleffekt: Alabasta Weiß',
             'lcn': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'los sombra': 'Primär: Carbanet Rot <br> Sekundär: - <br> Perleffekt: Zuckerpflaume',
+            'Blue Reign': 'Primär: #edfffd (Metall) <br> Sekundär: - <br> Perleffekt: Helles Blau ',
             
             
 
