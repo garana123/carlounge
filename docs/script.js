@@ -291,6 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'blue reign': 'Primär: #edfffd (Metall) <br> Sekundär: - <br> Perleffekt: Helles Blau ',
             'zivifuenf vip2': 'Zivis mit einer Visumstufe unter 5',
             'zivizehn vip3': 'Zivis mit einer Visumstufe zwischen 5-10',
+            'zivilist': 'Normale Zivis mit Visumstufe über 10',
             
             
 
