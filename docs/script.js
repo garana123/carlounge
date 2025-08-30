@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'aztecas': 'Primär: Paradise Blau  <br> Sekundär: - <br> Perleffekt: Diamant Blau',
             'midnight': 'Primär: Schnee Weiß <br> Sekundär: Schnee Weiß <br> Perleffekt: Helles Gold',
             'ballas': 'Primär: Metallic Lila <br> Sekundär: Metallic Lila <br> Perleffekt: Metallic Lila',
-            'hellbainianze mc': 'Primär: Matt Orange <br> Sekundär: - <br> Perleffekt: Bonbon Rot',
+            'hellbainianze mc': 'Primär: Nickel Grau <br> Sekundär: - <br> Perleffekt: Orange',
             'los trinitarios': 'Primär: #836FFF <br> Sekundär: - <br> Perleffekt: Alabasta Weiß',
             'lcn': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'los sombra': 'Primär: Carbanet Rot <br> Sekundär: - <br> Perleffekt: Zuckerpflaume',
