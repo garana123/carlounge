@@ -31,35 +31,35 @@ document.addEventListener('DOMContentLoaded', () => {
             selector: '#panzerung'
         },
         'Fenstertönung': {
-            prices: [30000, 39000, 27000, 120000],
+            prices: [50000, 60000, 35000, 150000],
             selector: '#fenstertoenung'
         },
         'Sticker': {
-            prices: [30000, 36000, 30000, 180000],
+            prices: [50000, 100000, 40000, 250000],
             selector: '#sticker'
         },
         'Hupen': {
-            prices: [27000, 28500, 27000, 0],
+            prices: [35000, 50000, 35000, 0],
             selector: '#hupe'
         },
         'Interieur': {
-            prices: [72000, 45000, 30000, 0],
+            prices: [80000, 100000, 40000, 0],
             selector: '#interieur'
         },
         'Primärfarbe': {
-            prices: [60000, 75000, 48000, 405000],
+            prices: [75000, 100000, 60000, 500000],
             selector: '#primaerfarbe'
         },
         'Sekundärfarbe': {
-            prices: [45000, 60000, 27000, 300000],
+            prices: [60000, 80000, 35000, 350000],
             selector: '#sekundaerfarbe'
         },
         'Perleffekt': {
-            prices: [30000, 45000, 24000, 180000],
+            prices: [45000, 60000, 30000, 250000],
             selector: '#perleffekt'
         },
         'Nummernschildfarbe': {
-            prices: [36000, 30000, 30000, 0],
+            prices: [40000, 45000, 35000, 0],
             selector: '#nummernschild'
         },
         'Custom-Kennzeichen': {
@@ -67,19 +67,19 @@ document.addEventListener('DOMContentLoaded', () => {
             selector: '#customkennzeichen'
         },
         'Reifenfarbe': {
-            prices: [27000, 30000, 30000, 180000],
+            prices: [35000, 45000, 40000, 220000],
             selector: '#reifenfarbe'
         },
         'Reifenqualm': {
-            prices: [27000, 30000, 24000, 0],
+            prices: [30000, 35000, 30000, 0],
             selector: '#reifenqualm'
         },
         'Xenon Scheinwerfer': {
-            prices: [30000, 30000, 30000, 180000],
+            prices: [50000, 50000, 50000, 180000],
             selector: '#xenon'
         },
         'Unterboden': {
-            prices: [27000, 33000, 24000, 180000],
+            prices: [35000, 50000, 38000, 180000],
             selector: '#unterboden'
         },
         'Quarterdeck': {
@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'felgen': {
             prices: [
                 [0, 0, 0, 0],
-                [25000, 25000, 25000, 25000],
-                [75000, 75000, 75000, 75000]
+                [50000, 50000, 50000, 50000],
+                [100000, 100000, 100000, 100000]
             ],
             selector: '#felgen',
             isDropdown: true
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
             isDropdown: true
         },
         'Fahrzeugteile': {
-            prices: [54000, 63000, 45000, 45000], // Preise pro Stück
+            prices: [60000, 75000, 50000, 80000], // Preise pro Stück
             selector: '#fahrzeugteile-anzahl'
         }
     };
@@ -407,8 +407,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 total *= 0.5;
             } else if (optionVal.includes('vip2')) {
                 total *= 0.6
-             } else if (optionVal.includes('vip3')) {
-                total *= 0.7
             } else if (optionVal.includes('vip')) {
                 // Wenn Fahrzeugtyp bereits gewählt, entsprechend 30 % (privatauto) oder 40 % (frakdienstauto)
                 const carType = document.querySelector('input[name="contractType"]:checked');
