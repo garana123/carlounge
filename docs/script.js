@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'grove street': 'Primär: Rasengrün <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'grove street ug': 'Primär: Hellblau <br> Sekundär: Hellblau - <br> Perleffekt: Rasengrün',
             'vagos': 'Primär: Renn Gelb <br> Sekundär: Renn Gelb <br> Perleffekt: Alabasta Weiß',
-            'aztecas': 'Primär: Paradise <br> Sekundär: - <br> Perleffekt: Diamant Blau',
+            'aztecas': 'Primär: #31839e <br> Sekundär: - <br> Perleffekt: Diamant Blau',
             'midnight': 'Primär: Schnee Weiß <br> Sekundär: Schnee Weiß <br> Perleffekt: Helles Gold',
             'ballas': 'Primär: Metallic Lila <br> Sekundär: Metallic Lila <br> Perleffekt: Metallic Lila',
             'hellbainianze mc': 'Primär: Nickel Grau <br> Sekundär: - <br> Perleffekt: Orange',
