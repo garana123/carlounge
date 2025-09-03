@@ -527,6 +527,12 @@ document.addEventListener('DOMContentLoaded', () => {
         input.addEventListener('change', updatePrice);
     });
 
+    // Event-Listener für Fastrepairkits (Mengenfeld)
+const frkInput = document.getElementById('fastrepairkits');
+if (frkInput) {
+  frkInput.addEventListener('input', updatePrice);
+}
+
     // Initialisierung
     handleVoucherChanges();
     updatePrice();
