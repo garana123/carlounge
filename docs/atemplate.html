@@ -373,5 +373,11 @@
   <button class="send-button" id="sendenButton">Senden</button>  
   <script src="script.js"></script>
   
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const dn = sessionStorage.getItem("dienstnummer") || sessionStorage.getItem("user") || "—";
+    document.getElementById("dienstnummer-placeholder").textContent = dn;
+  });
+</script>
 </body>
 </html>
