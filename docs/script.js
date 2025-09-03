@@ -375,68 +375,72 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Preisberechnung
-    function updatePrice() {
-        let total = 0;
-        const mainIndex = [...mainOptions].findIndex(opt => opt.checked);
-        if (mainIndex === -1) return;
+// Preisberechnung
+function updatePrice() {
+    let total = 0;
+    let fastrepairTotal = 0; // 👈 extra Summe für Fastrepairkits
+    const mainIndex = [...mainOptions].findIndex(opt => opt.checked);
+    if (mainIndex === -1) return;
 
-        Object.entries(priceConfig).forEach(([name, config]) => {
-    const element = document.querySelector(config.selector);
-    if (!element || element.disabled) return;
+    Object.entries(priceConfig).forEach(([name, config]) => {
+        const element = document.querySelector(config.selector);
+        if (!element || element.disabled) return;
 
-    if (config.isDropdown) {
-        // Dropdown-Auswahl (z. B. Felgen, Headlights)
-        const selectedValue = parseInt(element.value);
-        if (!isNaN(selectedValue) && selectedValue >= 0) {
-            const priceArray = config.prices[selectedValue] || [];
-            total += priceArray[mainIndex] || 0;
-        }
-    } else if (config.isQuantity) {
-        // 👈 NEU: Mengenfelder (z. B. Fastrepairkits)
-        const qty = parseInt(element.value) || 0;
-        total += qty * (config.prices[mainIndex] || 0);
-    } else {
-        // Standard: Checkbox oder einfache Inputs
-        if (element.type === 'checkbox' ? element.checked : !!element.value) {
-            total += config.prices[mainIndex] || 0;
-        }
-    }
-});
-
-        const fahrzeugteileConfig = priceConfig['Fahrzeugteile'];
-        const currentAnzahl = parseInt(document.getElementById('fahrzeugteile-anzahl').textContent);
-        total += currentAnzahl * fahrzeugteileConfig.prices[mainIndex];
-
-        // Rabatt-Optionen:
-        const zuordnungSelect = document.getElementById('zuordnungSelect');
-        if (zuordnungSelect) {
-            const optionVal = zuordnungSelect.value.toLowerCase();
-            console.log("Debug: Dropdown 'zuordnungSelect' value:", optionVal);
-            if (optionVal === 'carlounge') {
-                total *= 0.5;
-            } else if (optionVal.includes('vip2')) {
-                total *= 0.6
-            } else if (optionVal.includes('vip')) {
-                // Wenn Fahrzeugtyp bereits gewählt, entsprechend 30 % (privatauto) oder 40 % (frakdienstauto)
-                const carType = document.querySelector('input[name="contractType"]:checked');
-                if (carType) {
-                    console.log("Debug: Radiobutton 'contractType' selected:", carType.value);
-                    if (carType.value === 'privatauto') { // Privatauto
-                        total *= 0.7;
-                    } else if (carType.value === 'frakdienstauto') { // Frak/Dienstauto
-                        total *= 0.6;
-                    }
-                } else {
-                    console.log("Debug: Kein Fahrzeugtyp ausgewählt, defaulting to 30% discount");
-                    total *= 0.7;
-                }
+        if (config.isDropdown) {
+            // Dropdown-Auswahl (z. B. Felgen, Headlights)
+            const selectedValue = parseInt(element.value);
+            if (!isNaN(selectedValue) && selectedValue >= 0) {
+                const priceArray = config.prices[selectedValue] || [];
+                total += priceArray[mainIndex] || 0;
+            }
+        } else if (config.isQuantity) {
+            const qty = parseInt(element.value) || 0;
+            if (name === "fastrepairkits") {
+                // 👈 Fastrepairkits separat ohne Rabatt
+                fastrepairTotal += qty * (config.prices[mainIndex] || 0);
+            } else {
+                total += qty * (config.prices[mainIndex] || 0);
+            }
+        } else {
+            // Standard: Checkbox oder einfache Inputs
+            if (element.type === 'checkbox' ? element.checked : !!element.value) {
+                total += config.prices[mainIndex] || 0;
             }
         }
-        
-        priceDisplay.textContent = new Intl.NumberFormat('de-DE', { useGrouping: false }).format(total);
+    });
 
+    // Fahrzeugteile zählen
+    const fahrzeugteileConfig = priceConfig['Fahrzeugteile'];
+    const currentAnzahl = parseInt(document.getElementById('fahrzeugteile-anzahl').textContent);
+    total += currentAnzahl * fahrzeugteileConfig.prices[mainIndex];
+
+    // Rabatt-Optionen: wirken nur auf total (nicht auf fastrepairTotal)
+    const zuordnungSelect = document.getElementById('zuordnungSelect');
+    if (zuordnungSelect) {
+        const optionVal = zuordnungSelect.value.toLowerCase();
+        if (optionVal === 'carlounge') {
+            total *= 0.5;
+        } else if (optionVal.includes('vip2')) {
+            total *= 0.6
+        } else if (optionVal.includes('vip')) {
+            const carType = document.querySelector('input[name="contractType"]:checked');
+            if (carType) {
+                if (carType.value === 'privatauto') {
+                    total *= 0.7;
+                } else if (carType.value === 'frakdienstauto') {
+                    total *= 0.6;
+                }
+            } else {
+                total *= 0.7;
+            }
+        }
     }
+
+    // Gesamtsumme = rabattierter total + voller fastrepairTotal
+    const finalTotal = total + fastrepairTotal;
+
+    priceDisplay.textContent = new Intl.NumberFormat('de-DE', { useGrouping: false }).format(finalTotal);
+}
 
     // Event-Listener für Main Options mit Reset der Gruppen
     mainOptions.forEach(option => {
