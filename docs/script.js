@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         'fastrepairkits': {
             prices: [120000, 120000, 120000, 120000],
-            selector: '#fastrepairkits'
+            selector: '#fastrepairkits',
             isQuantity: true
         },
         'felgen': {
