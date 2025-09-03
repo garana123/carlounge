@@ -285,7 +285,6 @@ document.addEventListener('DOMContentLoaded', () => {
             'hellbainianze mc': 'Primär: Nickel Grau <br> Sekundär: - <br> Perleffekt: Orange',
             'los trinitarios': 'Primär: #836FFF <br> Sekundär: - <br> Perleffekt: Alabasta Weiß',
             'lcn': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
-            'los sombra': 'Primär: #797582 <br> Sekundär: - <br> Perleffekt: #797582',
             'blue reign': 'Primär: #edfffd (Metall) <br> Sekundär: - <br> Perleffekt: Helles Blau ',
             'zivifuenf vip2': 'Zivis mit einer Visumstufe unter 5',
             'zivizehn vip3': 'Zivis mit einer Visumstufe zwischen 5-10',
