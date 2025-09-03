@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pd unmarked vip': 'Primärfarbe: Mitternachtsblau <br> Sekundärfarbe: / <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'hamadys vip': 'Primärfarbe: Matt orange <br> Sekundärfarbe: / <br> Perleffekt: carbon schwarz <br>',
             'lcn vip': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
-            'los sombra vip': 'Primär: Carbanet Rot <br> Sekundär: - <br> Perleffekt: Zuckerpflaume',
+            'los sombra vip': 'Primär: #797582 <br> Sekundär: - <br> Perleffekt: #797582',
             'rosa la muerte': 'Primär: Cabernet rot <br> Sekundär: - <br> Perleffekt: Zellstoff rot' ,
             'rosa la muerte ug': 'Primär: Beton Grau <br> Sekundär: - <br> Perleffekt: Zellstoff rot' ,
             'lion de rue': 'Primär: Pastell Blau <br> Sekundär: - <br> Perleffekt: Elektrisches Rosa' ,
