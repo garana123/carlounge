@@ -88,7 +88,8 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         'fastrepairkits': {
             prices: [120000, 120000, 120000, 120000],
-            selector: '#fastrepairkits'  
+            selector: '#fastrepairkits'
+            isQuantity: true
         },
         'felgen': {
             prices: [
@@ -381,23 +382,27 @@ document.addEventListener('DOMContentLoaded', () => {
         if (mainIndex === -1) return;
 
         Object.entries(priceConfig).forEach(([name, config]) => {
-            const element = document.querySelector(config.selector);
-            if (!element || element.disabled) return;
+    const element = document.querySelector(config.selector);
+    if (!element || element.disabled) return;
 
-            if (config.isDropdown) {
-                // Korrekte Dropdown-Behandlung
-                const selectedValue = parseInt(element.value);
-                if (!isNaN(selectedValue) && selectedValue >= 0) {
-                    const priceArray = config.prices[selectedValue] || [];
-                    total += priceArray[mainIndex] || 0;
-                }
-            } else {
-                // Checkbox-Behandlung
-                if (element.checked) {
-                    total += config.prices[mainIndex] || 0;
-                }
-            }
-        });
+    if (config.isDropdown) {
+        // Dropdown-Auswahl (z. B. Felgen, Headlights)
+        const selectedValue = parseInt(element.value);
+        if (!isNaN(selectedValue) && selectedValue >= 0) {
+            const priceArray = config.prices[selectedValue] || [];
+            total += priceArray[mainIndex] || 0;
+        }
+    } else if (config.isQuantity) {
+        // 👈 NEU: Mengenfelder (z. B. Fastrepairkits)
+        const qty = parseInt(element.value) || 0;
+        total += qty * (config.prices[mainIndex] || 0);
+    } else {
+        // Standard: Checkbox oder einfache Inputs
+        if (element.type === 'checkbox' ? element.checked : !!element.value) {
+            total += config.prices[mainIndex] || 0;
+        }
+    }
+});
 
         const fahrzeugteileConfig = priceConfig['Fahrzeugteile'];
         const currentAnzahl = parseInt(document.getElementById('fahrzeugteile-anzahl').textContent);
