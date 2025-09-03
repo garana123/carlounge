@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'pd jugulargtf vip': 'Primärfarbe: Amethyst (Lila) <br> Sekundärfarbe: ./. <br> Perleffekt: Diamantenblau mit Sticker: Terroil <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'pd s.p.f.u vip': 'Primärfarbe: Carbon (Schwarz) <br> Sekundärfarbe: Carbon (Schwarz) <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'pd swat vip': 'Primärfarbe: Nickel (grau) <br> Sekundärfarbe: ./. <br> Perleffekt: Alabaster Weiß mit Sticker: PD <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos',
-            'pd unmarked vip': 'Primärfarbe: Mitternachtsblau <br> Sekundärfarbe: / <br> Perleffekt: Alabaster Weiß <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
+            'pd unmarked vip': 'Primärfarbe: Schwarz <br> Sekundärfarbe: / <br> Perleffekt: Beige (Weiß) <br> Info: Die Ränge Praktikant, Rekrut, Junior Officer und Officer 1 tunen Dienstfahrzeuge kostenlos', 
             'hamadys vip': 'Primärfarbe: Matt orange <br> Sekundärfarbe: / <br> Perleffekt: carbon schwarz <br>',
             'lcn vip': 'Primär: Dunkles Silber <br> Sekundär: - <br> Perleffekt: Helles Gold',
             'los sombra vip': 'Primär: #797582 <br> Sekundär: #797582 <br> Perleffekt: Nichts (Schwarz)',
