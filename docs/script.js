@@ -289,6 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'zivifuenf vip2': 'Zivis mit einer Visumstufe unter 5',
             'zivizehn vip3': 'Zivis mit einer Visumstufe zwischen 5-10',
             'zivilist': 'Normale Zivis mit Visumstufe über 10',
+            'darkriders mc': 'Primär: Helles Gelb (Metall) <br> Sekundär: - <br> Perleffekt: Helles Gelb ',
             
             
 
