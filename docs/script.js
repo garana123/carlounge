@@ -86,6 +86,10 @@ document.addEventListener('DOMContentLoaded', () => {
             prices: [30000, 30000, 27000, 0],
             selector: '#quarterdeck'
         },
+        'fastrepairkits': {
+            prices: [120000, 120000, 120000, 120000],
+            selector: '#fastrepairkits'  
+        },
         'felgen': {
             prices: [
                 [0, 0, 0, 0],
